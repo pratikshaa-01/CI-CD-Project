@@ -1,27 +1,38 @@
 # CI-CD-Project
-Spy App:
-Java-based Full-Stack Web Application. Users can view or create missions for each agents. They can also edit/ delete missions.
+CI/CD Pipeline for Spy App
+Project Overview:
+The Spy App is a Java-based full-stack web application built using Spring Boot, Thymeleaf, and JDBC with H2 Database. Users can create, view, edit, and delete missions for agents. The application utilizes Maven for dependency management and includes schema and data initialization scripts.
 
 Technologies:
-Java
-Spring Boot
-JDBC
-H2 Database
-Thymeleaf
-HTML5
-Maven
+Java & Spring Boot: Framework for building the web application.
+JDBC & H2 Database: Database management and connectivity.
+Thymeleaf & HTML5: Front-end template rendering.
+Maven: Build and dependency management.
 
 Features:
-CRUD operations
-JDBC for database control
-Spring Boot framework
-Mapping HTTP requests to appropriate HTML pages on the controller
-Sharing model attributes between the controller and HTML files using Thymeleaf
-Customizing schema using schema.sql file
-Inserting initial data using data.sql file
+CRUD operations for managing missions.
+Custom schema and initial data setup with schema.sql and data.sql.
+Mapping HTTP requests to HTML pages using Spring Boot controllers and Thymeleaf.
+CI/CD Pipeline:
 
-How to Run:
-Clone the repository
-Open the project in your IDE of choice
-Run the application
+Source Code Management:
+
+Clone the repository to a CI/CD environment.
+Build:
+
+Use Maven to compile and package the application.
+Test:
+
+Execute unit and integration tests to ensure code quality.
+Deploy:
+
+Deploy the application to a staging or production environment.
+Monitor:
+
+Track the application’s performance and health.
+
+How to Run Locally:
+Clone the repository.
+Open the project in your IDE.
+Run the Spring Boot application.
 
